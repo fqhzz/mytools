@@ -101,7 +101,7 @@ def main():
     try:
         c = sys.argv
         if c[1] == '-h':
-            print("Argument: python mytools.py DIR/FILE -t TYPE -o DIR/FILE")
+            print("command: sudo python mytools.py DIR/FILE -t TYPE -o DIR/FILE")
         else:
             scp(c)
     except:
