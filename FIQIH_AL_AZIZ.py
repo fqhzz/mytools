@@ -95,17 +95,17 @@ def scp(c):
             else:
                 print("invalid extention")
     except:
-        print("Invalid Argument \nUse 'python mytools.py -h' for Help")
+        print("Invalid Argument \nUse 'python FIQIH_AL_AZIZ.py -h' for Help")
 
 def main():
     try:
         c = sys.argv
         if c[1] == '-h':
-            print("command: sudo python mytools.py DIR/FILE -t TYPE -o DIR/FILE")
+            print("command: sudo python FIQIH_AL_AZIZ.py DIR/FILE -t TYPE -o DIR/FILE")
         else:
             scp(c)
     except:
-        print("Invalid Argument \nUse 'python mytools.py -h' for Help")
+        print("Invalid Argument \nUse 'python FIQIH_AL_AZIZ.py -h' for Help")
         
 
 if __name__ == '__main__':
