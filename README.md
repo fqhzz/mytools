@@ -1,3 +1,3 @@
 # mytools
 
-command: python mytools.py DIR/FILE -t TYPE -o DIR/FILE
+command: sudo python mytools.py DIR/FILE -t TYPE -o DIR/FILE
