@@ -1,3 +1,3 @@
 # mytools
 
-command: sudo python mytools.py DIR/FILE -t TYPE -o DIR/FILE
+command: sudo python FIQIH_AL_AZIZ.py DIR/FILE -t TYPE -o DIR/FILE
